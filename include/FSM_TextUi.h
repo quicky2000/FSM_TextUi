@@ -11,6 +11,7 @@ class FSM_TextUi: public framework_UI_if
 {
  public:
   FSM_TextUi(void);
+  ~FSM_TextUi(void);
   void run(void);
 
   // Methods inherited from framework_UI_if

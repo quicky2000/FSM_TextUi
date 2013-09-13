@@ -9,6 +9,11 @@ FSM_TextUi::FSM_TextUi(void)
 	m_framework = new framework_controler(this);
 }
 
+FSM_TextUi::~FSM_TextUi(void)
+{
+  delete m_framework;
+}
+
 void FSM_TextUi::run(void)
 {
 	unsigned int l_result = 0;
