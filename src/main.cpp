@@ -7,8 +7,7 @@ using namespace std;
 int main(int argc, char **argv)
 {
 
-	FSM_TextUi l_fsm_text_ui;
-	l_fsm_text_ui.run();
-
+  FSM_TextUi::FSM_TextUi l_fsm_text_ui;
+  l_fsm_text_ui.run();
   return 0;
 }
